@@ -28,7 +28,7 @@ def host_data(data_name):
     path_to_data = "data/" + data_name + ".json"
     with open(path_to_data) as f:
         data = json.load(f)
-        print data
+        # print data
     json_data = json.dumps(data)
     return str(json_data)
 
